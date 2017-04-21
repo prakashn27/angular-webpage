@@ -1,0 +1,107 @@
+/* app css stylesheet */
+body {
+  background: #222;
+  color: #fff;
+  box-sizing: border-box;
+}
+ a {
+   color: #ff5252;
+ }
+
+ .title {
+   font-family: 'Montserrat', sans-serif;
+   text-transform: uppercase;
+ }
+
+.sub-title {
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  padding-top: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.sub-title:before {
+  position: absolute;
+  top: -3px;
+  width: 200px;
+  height: 1px;
+  content: " ";
+  background-color: #ff5252;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.sub-title:after {
+  position: absolute;
+  top: -14px;
+  height: 24px;
+  width: 24px;
+  content: " ";
+  background-color: transparent;
+  border: 1px solid #ff5252;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.page-link a{
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 2em;
+}
+a:hover, a:focus{
+  color : #ff5252;
+}
+
+a:focus {
+  color : #ff5252;
+  transform: scale(1.1);
+  transition: all 0.2s ease 0s;
+  letter-spacing: 2px;
+}
+
+.page-link a:not(:focus) {
+  color : #ff5252;
+  transform: scale(0.9);
+  transition: all 0.2s ease 0s;
+  letter-spacing: 1px;
+}
+
+.social-icon i {
+  background: #222;
+  color: #ff5252;
+  padding: 5px;
+}
+
+.social-icon i:hover {
+  background: #ff5252;
+  color: #222;
+}
+
+
+
+/*.menu {*/
+  /*list-style: none;*/
+  /*border-bottom: 0.1em solid black;*/
+  /*margin-bottom: 2em;*/
+  /*padding: 0 0 0.5em;*/
+/*}*/
+
+/*.menu:before {*/
+  /*content: "[";*/
+/*}*/
+
+/*.menu:after {*/
+  /*content: "]";*/
+/*}*/
+
+/*.menu > li {*/
+  /*display: inline;*/
+/*}*/
+
+/*.menu > li + li:before {*/
+  /*content: "|";*/
+  /*padding-right: 0.3em;*/
+/*}*/
