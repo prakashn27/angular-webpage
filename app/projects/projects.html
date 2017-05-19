@@ -1,7 +1,7 @@
 <div ng-controller="ProjectsCtrl" class="section">
   <h4 class="section-heading text-center" > I jot down code like people take notes. </h4>
-  <h5> Courses <h5>
-  <ul ng-repeat="course in courses">
+  <h3> Courses Completed</h3>
+  <ul ng-repeat="course in coursesCompleted">
   	<li>{{course.key}} : {{course.title}} ( {{course.subtitle}} ) - {{ course.level }} </li>
   </ul>
   <p>

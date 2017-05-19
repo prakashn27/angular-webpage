@@ -130,7 +130,12 @@ a:focus {
   color: red;
 }
 
-
+ul > li {
+  font-size: 18px;
+}
+ul {
+  padding-bottom: 5px;
+}
 /*.menu {*/
   /*list-style: none;*/
   /*border-bottom: 0.1em solid black;*/
