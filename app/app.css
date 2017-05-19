@@ -41,7 +41,7 @@ body {
 }
 
  .section p {
-   font-size: 20px;
+   font-size: 22px;
    font-family: 'Lato', sans-serif;
  }
 .sub-title {
@@ -111,6 +111,24 @@ a:focus {
   color: #222;
 }
 
+
+#footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  opacity: 0.2;
+  background-color: #222;
+}
+
+.jumbotron {
+  background-color: inherit;
+}
+
+.fa-red {
+  color: red;
+}
 
 
 /*.menu {*/
